@@ -12,7 +12,6 @@ const App = () => {
     <div>
       <div className="nav-bar">
         <Link to="/app1">App1</Link>
-
         <button onClick={() => navigate("/app2")}>App2</button>
       </div>
       <div className="content">{elements}</div>

@@ -1,3 +1,5 @@
+import { Button } from "antd";
+
 const HomePage = () => {
   return (
     <div>
@@ -5,6 +7,8 @@ const HomePage = () => {
       <p>
         Esta é a página inicial do App 1, compartilhada via Module Federation.
       </p>
+
+      <Button type="primary"> App 01</Button>
     </div>
   );
 };
