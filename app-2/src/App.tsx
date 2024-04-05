@@ -5,9 +5,13 @@ import "./App.css";
 import Button from "./components/Button.jsx";
 function App() {
   return (
-    <>
-      <Button></Button>
-    </>
+    <div
+      style={{ padding: "20px", backgroundColor: "#00000", height: "100vh" }}
+    >
+      <h1>App 2: Página Secundária</h1>
+      <p>Bem-vindo à página secundária do App 2.</p>
+      <Button />
+    </div>
   );
 }
 
