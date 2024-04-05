@@ -1,14 +1,11 @@
 // @ts-ignore
 import React from "react";
-import './App.css'
+import "./App.css";
 // @ts-ignore
-import Button from './components/Button.jsx'
+
+import HomePage from "./pages/HomePage.js";
 function App() {
-  return (
-    <>
-      <Button></Button>
-    </>
-  )
+  return <HomePage />;
 }
 
-export default App
+export default App;
