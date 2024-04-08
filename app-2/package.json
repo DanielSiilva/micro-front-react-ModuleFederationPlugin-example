@@ -10,9 +10,12 @@
     "preview": "tsc && vite build && vite preview --port=5003 --strictPort"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.3",
     "antd": "^5.16.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
     "@originjs/vite-plugin-federation": "^1.2.3",

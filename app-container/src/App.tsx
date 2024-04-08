@@ -4,9 +4,13 @@ import { routes } from "./routes";
 import { Link } from "react-router-dom";
 import "./App.css"; // Importe o CSS aqui
 
+const useCart = React.lazy(() => import("remoteApp1/useCart"));
+
 const App = () => {
   const elements = useRoutes(routes);
   const navigate = useNavigate();
+
+  const { items, addItem, removeItem } = useCart();
 
   return (
     <div>

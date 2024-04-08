@@ -9,8 +9,7 @@ function App() {
     <div
       style={{ padding: "20px", backgroundColor: "#00000", height: "100vh" }}
     >
-      <h1>App 2: Página Secundária</h1>
-      <p>Bem-vindo à página secundária do App 2.</p>
+      <h1>App 2</h1>
       <Button />
     </div>
   );
